@@ -1,5 +1,35 @@
 @media screen and (max-width:576px) {
-    .items{
-        
+    .nav-section{
+        padding: 20px;
     }
+       .items {
+        flex-direction: column;
+                  }
+      .items a {
+        display: none;
+            }  
+            .bar{
+                display: block;
+            }
+   
+            .banner-title{
+                font-size: 24px;
+            }
+            .banner-para{
+                width: 100%;
+            }
+            .input-section{
+                flex-direction: column;
+                max-width:200px;
+                height: 220px;
+                padding:10px;
+            }
+           .popular-tour{
+            flex-direction: column;
+            width: 576px;
+            gap: 20px;
+            align-items: center;
+            text-align: center;
+           }
 }
+ 
