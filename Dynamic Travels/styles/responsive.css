@@ -2,34 +2,87 @@
     .nav-section{
         padding: 20px;
     }
-       .items {
+    .items {
         flex-direction: column;
                   }
-      .items a {
+    .items a {
         display: none;
             }  
-            .bar{
+    .bar     {
                 display: block;
             }
-   
-            .banner-title{
+            
+    .banner-title{
                 font-size: 24px;
+                padding-bottom: -10px;
             }
-            .banner-para{
-                width: 100%;
+    .banner-para{
+                padding-bottom: 10px;
             }
-            .input-section{
+         
+    .input-section{
                 flex-direction: column;
                 max-width:200px;
                 height: 220px;
                 padding:10px;
             }
-           .popular-tour{
+    .popular-tour{
+            margin-top: 20px;
             flex-direction: column;
-            width: 576px;
-            gap: 20px;
+           width: 100%;
             align-items: center;
             text-align: center;
-           }
+            padding: 20px;
+            max-width: 576px;
+                       }
+    .text-section{
+            width: 100%;
+          }
+    .img-section img{
+            width: 100%;
+            height: 100%;
+            margin-top: 30px;
+                   }
+    .grid-img{
+        flex-direction: column;
+        padding: 20px;
+    }    
+    .grid-layout-box{
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+    .box-section3{
+        margin-left:0%
+    }
+    .place-section{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .place-section-texts{
+    width: 100%;
+    padding: 20px;
+}
+.place-sec-img {
+    width: 100%;
+    height: 480px;
+}
+.newsletter-section{
+    flex-direction: column;
+    padding: 20px;
+}
+.rotate{
+    transform: translateX(100px) translateY(160px) rotate(-30deg);
+}
+.footer-section{
+    width: 100%;
+   height: 700px;
+   background: rgba(19, 19, 24, 0.05);
+   margin: 0 auto;
+padding-top: 110px;
+}
+.footer-icon{
+    flex-direction: column;
+}
+
 }
  
