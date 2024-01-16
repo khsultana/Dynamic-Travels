@@ -66,6 +66,45 @@
     width: 100%;
     height: 480px;
 }
+.deal-img-sections{
+    background-image: url(../Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+} 
+.deal-img-section{
+    background-image: url(../Images/Group\ 40.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+} 
+.flex-deal{
+    margin-left: 5%;
+    margin-top: 56px;
+    padding-top: 56px;
+    padding: 10px; 
+     width: 379px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+         }
+         .flex-deal-middle{
+            margin-left: 5%;
+            margin-top: 56px;
+            padding-top: 56px;
+            padding: 10px; 
+            width: 379px;
+           height: 389px;
+            border-radius: 16px;
+            border: 2px solid #FFF;
+            background: rgba(255, 255, 255, 0.80);
+            backdrop-filter: blur(2.5px);
+             
+            }
 .newsletter-section{
     flex-direction: column;
     padding: 20px;
